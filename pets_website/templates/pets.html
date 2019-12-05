@@ -1,0 +1,21 @@
+
+{% extends 'base.html' %}
+{% block page_name %}Pets {% endblock %}
+
+{% block content %}
+<h1>Pets</h1>
+
+<div class="row">
+{% for animal in pet_list %}
+
+<div class="card m-3" style="width: 18rem;">
+  <img src="{{animal.image}}" class="card-img-top" height="200px" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{animal.name}}</h5>
+    <p class="card-text">{{animal.description}}</p>
+    <a href="/pet/{{animal.id}}" class="btn btn-primary">View</a>
+  </div>
+</div>
+{% endfor %}
+</div>
+{% endblock %}

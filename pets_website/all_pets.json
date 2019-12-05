@@ -1,0 +1,28 @@
+{
+"pets": [
+{
+"id" : 0,
+"name": "Poodle",
+"type" : "Dog",
+"image" : "static/id_0.jpg",
+"description": "Nice and fluffy dog",
+"price": 100
+},
+{
+"id" : 1,
+"name": "British Shorthair",
+"type" : "Cat",
+"image" : "static/kitty.jpg",
+"description": "Female, likes to sleep and play",
+"price": 300
+},
+{
+"id" : 2,
+"name": "Sun Conure",
+"type" : "Parrot",
+"image" : "static/id_2.jpg" ,
+"description": "Talks all the time",
+"price": 2000
+}
+]
+}
